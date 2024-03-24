@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/AnimeList/Header";
 
-const Home = async () => {
+const Page = async () => {
   const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_url}/top/anime?limit=8`)
   const topAnime = await response.json()
 
@@ -17,12 +17,8 @@ const Home = async () => {
       <AnimeList api={topAnime} />
     </section>
     {/* Anime Terpopuler Selesai */}
-
-    
-
-
     </>
   )
 }
 
-export default Home
+export default Page
