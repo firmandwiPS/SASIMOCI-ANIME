@@ -1,4 +1,4 @@
-import Search from "@/components/Search";
+
 import AnimeList from "@/components/Animelist";
 import Image from "next/image";
 import Link from "next/link";
