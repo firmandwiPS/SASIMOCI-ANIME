@@ -3,7 +3,7 @@ import AnimeList from "@/components/Animelist";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/AnimeList/Header";
-import { getAnimeResponse } from "@/app/libs/api-libs";
+import { getAnimeResponse } from "@/libs/api-libs";
 
 const Page = async ({ params }) => {
     const { keyword } = params
