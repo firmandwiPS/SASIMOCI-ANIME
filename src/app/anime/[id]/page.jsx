@@ -1,5 +1,5 @@
-import { getAnimeResponse } from "@/libs/api-libs"
-import VidioPlayer from "@/components/Utilities/VidioPlayer"
+import { getAnimeResponse } from "../../../libs/api-libs"
+import VidioPlayer from "../../../components/Utilities/VidioPlayer"
 import Image from "next/image"
 
 const Page = async ({ params: { id } }) => {

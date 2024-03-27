@@ -1,8 +1,8 @@
 
-import AnimeList from "@/components/Animelist";
+import AnimeList from "../../../components/AnimeList";
 import Image from "next/image";
 import Link from "next/link";
-import Header from "@/components/AnimeList/Header";
+import Header from "../../../components/Utilities/HeaderMenu";
 import { getAnimeResponse } from "@/libs/api-libs";
 
 const Page = async ({ params }) => {
